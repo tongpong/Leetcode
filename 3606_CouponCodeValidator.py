@@ -1,7 +1,7 @@
 import numpy as np
 from collections import defaultdict
 BusinessLineSet=np.sort(["electronics", "grocery", "pharmacy", "restaurant"])
-
+#
 def ToASCII(code):
     code=[ord(c) for c in list(code)]
     return np.array(code)
